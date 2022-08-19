@@ -1,13 +1,14 @@
 import './App.css';
 import Top from './comp/top.js'
-import Liste from './comp/liste.js'
-import Rate from './comp/rate.js'
+import MovieContainre from './comp/MovieContainre.js'
+
 
 function App() {
+
   return (
     <div className="App">
       <Top />
-      <Liste/>
+      <MovieContainre/>
       
     </div>
   );

@@ -1,7 +1,6 @@
 import { TbMovie } from 'react-icons/tb';
-import { BsFillPlusCircleFill } from 'react-icons/bs';
 import { BsSearch } from 'react-icons/bs';
-
+import Modal from './modal.js'
 
 
 function top() {
@@ -13,7 +12,8 @@ function top() {
             Douikix
             </div>
         <div className='topright'>
-            <div><BsFillPlusCircleFill className='plus'/></div>
+            {/* <div><BsFillPlusCircleFill className='plus'/></div> */}
+            <Modal className= "modale"/>
             <div className='searchspace'>
             <input type="text" name="T1" size="20" placeholder='Quick Search' className='inputsearch'/>
             <button className='buttonsearch'><BsSearch/></button>  

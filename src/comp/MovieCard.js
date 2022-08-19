@@ -1,10 +1,10 @@
 import React  from 'react';
 import { Rate } from 'antd';
 function App(props) {
-console.log(props)
-
+console.log(props) 
   return(
 <div className='card'>
+<div className='rate'><Rate disabled defaultValue={props.data.rate} /></div>
 <div className='imageprop'>{props.data.image}</div>
 <div className='name'><h2>{props.data.name}</h2></div>
 <div className='y'>

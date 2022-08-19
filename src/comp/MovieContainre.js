@@ -3,7 +3,7 @@ import imagelogan from './../logan.png'
 import imageevades from './../evades.png'
 import imageteen from './../Teen.png'
 import imageDisaster from './../Disaster.png'
-import Liste2 from './liste2.js'
+import MovieCard from './MovieCard.js'
 
   
 function App() {
@@ -35,7 +35,7 @@ function App() {
     {
     produit.map(element=>(
    
-      <Liste2 data={element}/>
+      <MovieCard data={element}/>
       
       
 
